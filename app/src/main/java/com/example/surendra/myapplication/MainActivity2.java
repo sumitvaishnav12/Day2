@@ -14,7 +14,7 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        textView = (TextView) findViewById(R.id.textView);
+        textView = (TextView) findViewById(R.id.editText);
         textView.setText(getIntent().getStringExtra("KEY"));
     }
 
